@@ -1,0 +1,35 @@
+:root {
+  --main-color: #cbfe1c;
+}
+body {
+  font-family: "Chakra Petch", sans-serif;
+}
+.my-navbar {
+  border-bottom: #191a23 2px solid;
+  padding: 0;
+  background-color: #0b0e13;
+}
+.my-navbar .navbar-brand {
+  color: var(--main-color);
+  font-weight: bold;
+}
+.my-navbar .nav-link {
+  color: white !important;
+}
+.my-navbar .nav-link.active {
+  color: var(--main-color) !important;
+}
+.my-button {
+  background-color: var(--main-color);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+header {
+  background-image: url(../Images/imgi_77_hero-bg-H6PoyNYD.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* filter: brightness(10%); */
+ 
+}
