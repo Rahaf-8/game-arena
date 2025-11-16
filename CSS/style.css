@@ -448,8 +448,13 @@ header {
 .footer-text-color {
   color: #8e96a3;
 }
-@media (min-width: 576px) {
+
+
+@media (max-width: 576px) {
   /* sm */
+  header{
+    padding-top: 50px;
+  }
   .header-text-wrapper {
     justify-content: center !important;
   }
@@ -464,16 +469,27 @@ header {
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   /* md */
+
+ 
   .my-buttons .btn-warning,
   .my-buttons .btn-outline-warning {
-    width: 80% !important;
+    width: 100% !important;
   }
   .logo-img {
     width: 75px;
   }
 
+}
+@media (max-width:1199px){
+  header{
+    padding-top: 60px;
+  }
+  .our-game-carousel .img-1, .our-game-carousel .img-2 , .our-game-carousel .img-3{
+    width: 30% !important;
+    border-radius: 0.3rem !important;
+  }
 }
 
 @media (min-width: 1200px) {
