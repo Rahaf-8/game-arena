@@ -267,7 +267,7 @@ header {
 }
 
 .logo-img {
-  width: 30px;
+  width: 100px;
   border-radius: 20px;
   object-fit: cover;
 }
@@ -449,19 +449,15 @@ header {
   color: #8e96a3;
 }
 
-
 @media (max-width: 576px) {
   /* sm */
-  header{
+  header {
     padding-top: 50px;
   }
-  .header-text-wrapper {
-    justify-content: center !important;
-  }
-
 
   .logo-img {
-    width: 50px;
+    width: 25px !important;
+   
   }
   .my-buttons .btn-warning,
   .my-buttons .btn-outline-warning {
@@ -472,31 +468,29 @@ header {
 @media (max-width: 768px) {
   /* md */
 
- 
   .my-buttons .btn-warning,
   .my-buttons .btn-outline-warning {
     width: 100% !important;
   }
-  .logo-img {
-    width: 75px;
-  }
-
 }
-@media (max-width:1199px){
-  header{
+@media (max-width: 1199px) {
+  header {
     padding-top: 60px;
   }
-  .our-game-carousel .img-1, .our-game-carousel .img-2 , .our-game-carousel .img-3{
+  .our-game-carousel .img-1,
+  .our-game-carousel .img-2,
+  .our-game-carousel .img-3 {
     width: 30% !important;
     border-radius: 0.3rem !important;
+  }
+  .logo-img {
+    width: 50px;
   }
 }
 
 @media (min-width: 1200px) {
   /* xl */
-  .logo-img {
-    width: 100px;
-  }
+ 
   .my-buttons .btn-warning,
   .my-buttons .btn-outline-warning {
     width: 40% !important;
@@ -504,7 +498,5 @@ header {
   .what-we-do::after {
     content: "";
     width: 40%;
-  
-    
   }
 }
