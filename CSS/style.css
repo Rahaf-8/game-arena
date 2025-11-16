@@ -241,7 +241,7 @@ header {
 
 .what-we-do::after {
   content: "";
-  width: 40%;
+  width: 0%;
   position: absolute;
   top: 75%;
   left: 50%;
@@ -453,13 +453,7 @@ header {
   .header-text-wrapper {
     justify-content: center !important;
   }
-  .what-we-do::after {
-    content: "";
-    width: 60%;
-    position: absolute;
-    top: 93%;
-    left: 50%;
-  }
+
 
   .logo-img {
     width: 50px;
@@ -479,13 +473,7 @@ header {
   .logo-img {
     width: 75px;
   }
-  .what-we-do::after {
-    content: "";
-    width: 60%;
-    position: absolute;
-    top: 87%;
-    left: 50%;
-  }
+
 }
 
 @media (min-width: 1200px) {
@@ -496,5 +484,11 @@ header {
   .my-buttons .btn-warning,
   .my-buttons .btn-outline-warning {
     width: 40% !important;
+  }
+  .what-we-do::after {
+    content: "";
+    width: 40%;
+  
+    
   }
 }
